@@ -1,4 +1,4 @@
-# CI for first-153. Every action is pinned to a release tag. Jobs: build and test
+# CI for gated-token. Every action is pinned to a release tag. Jobs: build and test
 # (unit, fuzz, invariant), Slither, Aderyn, a gas snapshot diff on pull requests, the rules-file
 # drift check, and the web build. Nothing here holds a key or deploys anything.
 name: ci
@@ -76,7 +76,7 @@ jobs:
         with:
           node-version: 22
       - run: cd contracts && npm install --no-audit --no-fund && npm run install:forge-std
-      - uses: crytic/slither-action@v0.4.1
+      - uses: crytic/slither-action@v0.4.2
         with:
           target: contracts
           slither-config: contracts/slither.config.json

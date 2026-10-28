@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "first-153",
+  title: "gated-token",
   description: "Identity-gated dApp on Redbelly Network",
 };
 

@@ -2,7 +2,7 @@
   "name": "web",
   "private": true,
   "version": "0.1.0",
-  "description": "Next.js front end for first-153: connect, verify-your-wallet interstitial, one gated action.",
+  "description": "Next.js front end for gated-token: connect, verify-your-wallet interstitial, one gated action.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

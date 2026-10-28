@@ -1,5 +1,5 @@
 {
-  "name": "first-153-contracts",
+  "name": "gated-token-contracts",
   "private": true,
   "description": "OpenZeppelin comes from npm at a pinned version (the method packages/receptor-mock chose); forge-std comes from `forge install --no-git` at a pinned tag; receptor-mock is vendored in lib/.",
   "scripts": {

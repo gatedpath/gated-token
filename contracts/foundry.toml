@@ -1,4 +1,4 @@
-# Foundry configuration for first-153 (scaffolded by create-redbelly-dapp 0.2.1).
+# Foundry configuration for gated-token (scaffolded by create-redbelly-dapp 0.2.1).
 # Network facts: https://vine.redbelly.network/consensus/evm-compatibility/ (Prague, solc 0.8.30).
 
 [profile.default]

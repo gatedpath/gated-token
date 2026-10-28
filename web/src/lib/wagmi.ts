@@ -19,7 +19,7 @@ export const config = createConfig({
             projectId,
             showQrModal: true,
             metadata: {
-              name: "first-153",
+              name: "gated-token",
               description: "Identity-gated dApp on Redbelly Network",
               url: typeof window === "undefined" ? "http://localhost:3000" : window.location.origin,
               icons: [],

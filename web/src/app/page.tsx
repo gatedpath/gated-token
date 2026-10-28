@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1>first-153</h1>
+      <h1>gated-token</h1>
       <p className="muted">
         {chain.name} (chain {chain.id}). Every wallet here is identity-verified before it can transact; this app checks that first, then offers one gated action.
       </p>
